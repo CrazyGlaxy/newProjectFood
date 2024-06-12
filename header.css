@@ -1,0 +1,333 @@
+/* navbar start */
+.navbar-container {
+
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* background-color: beige; */
+    padding-bottom: 20px;
+
+}
+
+.nav-logo {
+    width: 26%;
+    /* background: #000; */
+}
+
+.home-cart {
+    width: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    /* background-color: aqua; */
+    justify-content: center;
+    /* padding-right: 20px; */
+}
+
+/* .nav-search{
+    width: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(78, 166, 166);
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-between;
+} */
+.nav-search {
+
+
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    /* background-color: rgb(78, 166, 166); */
+    border-radius: 9px;
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container img {
+    margin-right: 8px;
+}
+
+.cart-container img {
+    padding-left: 15px;
+    border-left: 1px solid black;
+}
+
+
+
+/* navbar end */
+
+
+
+/* HEADER MAIN */
+
+.bike-delivery {
+    width: 270px;
+    height: 63px;
+    top: 157px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5DDC4;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    margin: 40px 0px;
+
+}
+
+.header-main-left {
+    width: 50%;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+
+
+}
+
+.header-button {
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.order-now {
+    width: 248px;
+    height: 86px;
+    top: 850px;
+    left: 180px;
+    gap: 10px;
+    border-radius: 15px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.order-process {
+    /* background: red; */
+
+    width: 348px;
+    height: 86px;
+    /* top: 850px; */
+    /* left: 180px; */
+    gap: 10px;
+    border-radius: 15px;
+    opacity: 0px;
+    /* background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%); */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.triangle-img {
+    position: relative;
+    /* Make the position relative so that left property works */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header-card {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.header-main-container {
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.header-main-right {
+    width: 50%;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 100px;
+    grid-column-gap: 10px;
+
+}
+
+.header-card-border {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.header-card-stuff {
+    /* position: relative; */
+    /* border: 2px solid red; */
+    bottom: 100px;
+    left: -50px;
+    text-align: center;
+    height: 250px;
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+/* .header-card-stuff h1 {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.header-card-stuff p {
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+} */
+
+
+/* HEADER MAIN END */
+
+
+/* shortlist */
+.shortlist{
+    background:wheat;
+    border-radius: 10px;
+    display: flex;
+}
+
+.shortlistP{
+    width: 33%; padding: 5px;
+}
+
+#shortlistm{
+    border-left: 1px solid rgba(0, 0, 0, 0.203);
+    border-right: 1px solid rgba(0, 0, 0, 0.203);
+}
+/* shortlist end */
+
+
+
+
+@media only screen and (max-width: 576px) and (min-width: 200px) {
+    .navbar-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 100%;
+    }
+
+    .home-cart {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .search-container {
+        padding-right: 20px;
+    }
+
+    .nav-search {
+        width: 90%;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        border-radius: 9px;
+        padding: 15px;
+        padding-right: ;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .header-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-main-left {
+        width: 100%;
+    
+    
+    }
+    
+
+    .header-main-right {
+        padding-top: 100px;
+        width: 100%;
+        /* background: #000; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: auto;
+        display: grid;
+        grid-template-columns:  auto;
+        grid-auto-rows: auto;
+        grid-row-gap: 100px;
+        grid-column-gap: 10px;
+
+    }
+    .header-button {
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    .order-now{
+        margin-bottom: 20px;
+    }
+
+    .shortlist{
+     flex-direction: column;
+    }
+    .shortlistP{
+        width: 100%;
+        padding-bottom:15px ;
+    }
+    #shortlistm{
+        border: none;
+    }
+}

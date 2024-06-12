@@ -1,0 +1,125 @@
+.food {
+    padding: 0px 20px;
+    width: 25%;
+    /* background-color: rgb(123, 176, 222); */
+
+    p {
+        padding-top: 30px;
+    }
+
+}
+
+.footer-logos {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+.opening-restaurant {
+    width: 25%;
+    padding: 40px 0px;
+    /* background-color: rgb(123, 176, 222); */
+    p {
+        padding-top: 20px;
+    }
+    h1{
+        padding-bottom: 40px;
+    }
+
+}
+
+.user-link {
+    /* background-color: rgb(123, 176, 222); */
+    width: 25%;
+    padding: 40px 0px;
+    h1{
+        padding-bottom: 40px;
+    }
+    p {
+        padding-top: 20px;
+    }
+}
+
+.contact-us {
+    width: 25%;
+    padding: 40px 0px;
+    /* background-color: rgb(123, 176, 222); */
+    p {
+        padding-top: 20px;
+    }
+    h1{
+        padding-bottom: 40px;
+    }
+}
+
+.newsletter-formF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.newsletter-formF input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    margin-right: 5px;
+
+}
+
+.newsletter-formF button {
+    /* padding: 10px 20px; */
+    /* background-color: #F48E28; */
+    /* color: #fff; */
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.newsletter-formF button:hover {
+    /* background-color: #0056b3; */
+}
+
+
+@media only screen and (max-width: 576px) and (min-width: 200px) {
+    .food {
+        width: 100%;
+    }
+
+    .opening-restaurant {
+        width: 100%;
+    }
+
+    .user-link {
+        width: 100%;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .food {
+        padding: 0px;
+    }
+    .footer-logos {
+        /* width: 80%; */
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
